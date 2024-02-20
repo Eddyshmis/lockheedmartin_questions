@@ -1,4 +1,6 @@
 test = "fkdjfk dkfjkfj kfjdkj"
 
-print(test.replace(" ",""))
-print(test)
+for char in test:
+    if char == "f":
+        continue
+    print(char,end="")
